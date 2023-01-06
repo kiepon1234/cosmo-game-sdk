@@ -1,0 +1,39 @@
+{
+	"name": "cosmo-game-sdk",
+	"version": "1.0.0",
+	"description": "API Cosmo Game для разработки ботов, приложений, сайтов.",
+	"main": "./lib/index.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.18",
+		"typescript": "^4.9.4"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kiepon1234/cosmo-game-sdk.git"
+	},
+	"keywords": [
+		"api",
+		"sdk",
+		"cosmo-game",
+		"cosmo-game-spi",
+		"cosmo-game-sdk",
+		"api-sdk-cosmo"
+	],
+	"author": {
+		"email": "maksimus111top@gmail.com",
+		"name": "Kiepon"
+	},
+	"license": "MIT",
+	"types": "./lib/index.d.ts",
+	"bugs": {
+		"url": "https://github.com/kiepon1234/cosmo-game-sdk/issues"
+	},
+	"homepage": "https://github.com/kiepon1234/cosmo-game-sdk#readme"
+}
