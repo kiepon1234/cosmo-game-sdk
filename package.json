@@ -1,14 +1,13 @@
 {
 	"name": "node-cosmo-game-sdk",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "API Cosmo Game для разработки ботов, приложений, сайтов.",
 	"devDependencies": {
 		"@types/node": "^18.11.18",
 		"typescript": "^4.9.4"
 	},
 	"scripts": {
-		"test": "node test.js",
-		"build": "rd /s /q lib && tsc -p tsconfig.cjs.json && tsc -p tsconfig.types.json"
+		"test": "node test.js"
 	},
 	"repository": {
 		"type": "git",
